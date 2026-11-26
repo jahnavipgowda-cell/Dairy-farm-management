@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://farmamart-db:5432/farmamart_db
+    username: farmamart_user
+    password: ProductionSecurePassword123!
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
